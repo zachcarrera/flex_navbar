@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.nav {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.nav-title, .active, .btn {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+.btn {
+    background-color: #17a2b8;
+    border: 2px solid black;
+    padding: 0.25em 0.5em;
+    box-shadow: 2px 2px black;
+}
